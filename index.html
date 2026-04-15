@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="taskApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Task Manager</title>
+
+    <!-- AngularJS CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body ng-controller="TaskController">
+
+<div class="container">
+    <h1>🚀 Smart Task Manager</h1>
+
+    <!-- Add Task -->
+    <div class="input-box">
+        <input type="text" ng-model="newTask" placeholder="Enter a task...">
+        <button ng-click="addTask()">Add</button>
+    </div>
+
+    <!-- Search -->
+    <input class="search" type="text" ng-model="searchText" placeholder="🔍 Search tasks...">
+
+    <!-- Task List -->
+    <div class="task-card" ng-repeat="task in tasks | filter:searchText">
+        <span ng-class="{done: task.completed}">
+            {{task.name}}
+        </span>
+
+        <div class="buttons">
+            <button ng-click="toggleTask(task)">✔</button>
+            <button ng-click="deleteTask($index)">❌</button>
+        </div>
+    </div>
+
+    <!-- Stats -->
+    <div class="stats">
+        Total: {{tasks.length}} |
+        Completed: {{getCompletedCount()}}
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
