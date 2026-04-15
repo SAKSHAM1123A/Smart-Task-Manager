@@ -1,9 +1,8 @@
-🚀 Smart Task Manager (AngularJS SPA)
+**🚀 Smart Task Manager (AngularJS SPA)**
 
 A modern, responsive Single Page Web Application (SPA) built using AngularJS (1.x) to manage daily tasks efficiently.
 
-✨ Features
-
+**✨ Features**
 ✅ Add new tasks
 ✅ Delete tasks
 ✅ Mark tasks as completed ✔
@@ -12,12 +11,13 @@ A modern, responsive Single Page Web Application (SPA) built using AngularJS (1.
 ✅ Data persistence using localStorage 💾
 ✅ Responsive & attractive UI 🎨
 
-🛠️ Tech Stack
+**🛠️ Tech Stack**
 🌐 HTML5
 🎨 CSS3
 ⚙️ JavaScript
 🔥 AngularJS (1.8.2)
-📂 Project Structure
+
+**📂 Project Structure**
 📁 project/
 │── index.html
 │── style.css
@@ -29,11 +29,6 @@ A modern, responsive Single Page Web Application (SPA) built using AngularJS (1.
 3️⃣ Double-click on index.html
 
 👉 Or open with Live Server (VS Code) for better experience
-
-📸 Preview
-
-💡 Simple, clean UI with gradient background and task cards.
-
 🧠 AngularJS Concepts Used
 ng-app → App initialization
 ng-controller → Controller binding
@@ -42,23 +37,16 @@ ng-repeat → Looping through tasks
 ng-click → Event handling
 ng-class → Dynamic styling
 Filters (| filter) → Search functionality
-🚀 Future Improvements
 
-🔹 User Login & Authentication
-🔹 Pomodoro Timer ⏱️
-🔹 Dark Mode 🌙
-🔹 Backend Integration (Node.js + MongoDB)
-🔹 Upgrade to Modern Angular (v17+)
-
-🤝 Contributing
+**🤝 Contributing**
 
 Feel free to fork this project and improve it!
 Pull requests are welcome 🚀
 
-📄 License
+**📄 License**
 
 This project is open-source and available under the MIT License.
 
-💡 Author
+**💡 Author**
 
 👨‍💻 Developed for academic/project purposes
